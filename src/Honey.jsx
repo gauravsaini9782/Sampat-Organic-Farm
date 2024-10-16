@@ -72,10 +72,10 @@ const OurProducts = () => {
       <div className="container mx-auto px-4">
         {/* Ghee Extraction Process Section */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12 flex flex-col lg:flex-row items-center justify-evenly">
-          <div className="w-[400px]">
+          <div className="lg:w-1/2">
             <img
               src="/images/honey-bees-icons-set_1284-7247.jpg"
-              alt="Ghee Extraction Process"
+              alt="Honey Extraction Process"
               className="w-65 object-cover rounded-lg shadow-md"
             />
           </div>
