@@ -4,47 +4,41 @@ import HeroSection from "./HeroSection";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import OurProducts from "./OurProducts";
-import BestsellerPage from "./BestSellerPage";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutUs from "./AboutUs";
 import WhyChooseUs from "./WhyChooseUs";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
-
-// Define routes
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HeroSection />,
-  },
-  {
-    path: "/products",
-    element: <OurProducts />,
-  },
-  {
-    path: "/bestseller",
-    element: <BestsellerPage />,
-  },
-  {
-    path: "/about",
-    element: <AboutUs />,
-  },
-]);
+import BestsellerPage from "./BestSellerPage";
+import Ghee from "./Ghee";
+import Honey from "./Honey"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* Navbar should be outside the RouterProvider so it's visible on every route */}
-      <Navbar />
-
-      {/* RouterProvider handles all routing */}
-      <RouterProvider router={router} />
-      <OurProducts/>
-      <WhyChooseUs/>
-      <Gallery/>
-      <Footer/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <HeroSection />
+                <OurProducts />
+                <WhyChooseUs />
+                <Gallery />
+              </div>
+            }
+          />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/bestseller" element={<BestsellerPage />} />
+          <Route path="/ghee" element={<Ghee />} />
+          <Route path="/honey" element={<Honey/>} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

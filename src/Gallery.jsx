@@ -7,7 +7,7 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "/images/cow 1.jpg",
+      src: "/images/honey tree.jpg",
       alt: "Image 1",
     },
     {

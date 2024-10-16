@@ -36,7 +36,7 @@ const Navbar = () => {
   // Function to open WhatsApp
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/1234567890?text=Hello!%20I%20am%20interested%20in%20your%20products.",
+      "https://wa.me/919782312413?text=Hello!%20I%20am%20interested%20in%20your%20products.",
       "_blank"
     );
   };
@@ -108,7 +108,7 @@ const Navbar = () => {
               Bestseller
             </a>
             <a
-              href="/about"
+              href="/about-us"
               className="text-gray-700 hover:text-gray-900 font-medium"
             >
               About Us
@@ -200,7 +200,13 @@ const Navbar = () => {
             )}
           </div>
           <a
-            href="/about"
+            href="/bestseller"
+            className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+          >
+            Bestseller
+          </a>
+          <a
+            href="/about-us"
             className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
           >
             About Us

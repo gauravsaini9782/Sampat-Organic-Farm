@@ -8,8 +8,7 @@ const bestsellingProducts = [
     id: 1,
     title: "Organic Cow Ghee - 1kg",
     description: "Rich in flavor and nutrients, perfect for daily use.",
-    image:
-      "https://images.unsplash.com/photo-1600203197050-c09dfaae5d96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "/images/go 2.jpg",
     originalPrice: 1800,
     discountedPrice: 1548,
     discount: 14,
@@ -19,8 +18,7 @@ const bestsellingProducts = [
     id: 2,
     title: "Organic Honey - 500g",
     description: "Pure, raw, and unfiltered organic honey.",
-    image:
-      "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "/images/ho 2.jpg",
     originalPrice: 700,
     discountedPrice: 602,
     discount: 14,
@@ -30,8 +28,7 @@ const bestsellingProducts = [
     id: 3,
     title: "Organic Cow Ghee - 500g",
     description: "Pure organic cow ghee from grass-fed cows.",
-    image:
-      "https://images.unsplash.com/photo-1600203197050-c09dfaae5d96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "/images/go 1.jpg",
     originalPrice: 1000,
     discountedPrice: 860,
     discount: 14,
@@ -41,8 +38,7 @@ const bestsellingProducts = [
     id: 4,
     title: "Organic Honey - 1kg",
     description: "Packed with antioxidants and nutrients.",
-    image:
-      "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "/images/ho 1.jpg",
     originalPrice: 1200,
     discountedPrice: 1032,
     discount: 14,
@@ -70,11 +66,40 @@ const BestsellerPage = () => {
   };
 
   return (
-    <section className="bg-green-50 py-16">
+    <section className="bg-gray-50 py-24">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-green-800 mb-12">
           Bestsellers
         </h2>
+
+        {/* Ghee Extraction Process Section */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-12 flex flex-col lg:flex-row items-center justify-evenly">
+          <div className="lg:w-1/2">
+            <img
+              src="/images/bestselller.jpg"
+              alt="Ghee Extraction Process"
+              className="w-65 object-cover rounded-lg shadow-md"
+            />
+          </div>
+          <div className="lg:w-1/2 lg:ml-8 mt-8 lg:mt-0">
+            <h2 className="text-3xl lg:text-4xl font-bold text-green-800 mb-4">
+              Bestselling Natural Honey and Pure Ghee
+            </h2>
+            <p className="text-gray-700 mb-4">
+              Handcrafted using time-honored methods, our traditional ghee is
+              made from high-quality milk, slowly simmered to perfection. Its
+              golden hue, rich aroma, and nutty flavor make it an essential in
+              every kitchen.
+            </p>
+            <p className="text-gray-700">
+              Our honey is sourced directly from nature, harvested using
+              traditional methods that preserve its rich flavor and nutrients.
+              Each drop is packed with natural sweetness, antioxidants, and the
+              essence of wildflowers, offering a perfect balance for your health
+              and taste buds.
+            </p>
+          </div>
+        </div>
 
         {/* Cart message pop-up */}
         {cartMessage && (

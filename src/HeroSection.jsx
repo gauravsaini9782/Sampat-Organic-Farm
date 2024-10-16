@@ -41,31 +41,38 @@ const HeroSection = () => {
   };
 
   return (
-    <section className=" py-10 relative z-0"> {/* Adjusted padding */}
+    <section className=" py-10 relative z-0">
+      {" "}
+      {/* Adjusted padding */}
       {/* Overlay to handle navbar */}
       <div className="absolute top-0 left-0 right-0 z-10">
         {/* Your navbar goes here */}
       </div>
-
       <Slider {...settings}>
         {/* First Slide */}
         <div className="w-full h-auto">
           <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
             <img
-              src="/images/cow 2.jpg"
+              src="/images/h1.jpg"
               alt="Fresh & Organic"
-              className="w-full h-[50vh] object-cover brightness-75" 
+              className="w-full h-[50vh] object-cover brightness-50 opacity-20"
             />
             <div className="absolute inset-0 flex items-center justify-center ">
-              <div className="text-center text-white px-4 lg:px-8">
-                <h1 className="text-3xl lg:text-5xl font-bold mb-4 drop-shadow-lg"> {/* Decreased font size */}
+              <div className="text-center text-blue-700 px-4 lg:px-8">
+                <h1 className="text-3xl lg:text-5xl font-bold mb-4 drop-shadow-lg">
+                  {" "}
+                  {/* Decreased font size */}
                   Fresh & Organic Food
                 </h1>
-                <p className="text-base mb-6 drop-shadow-lg"> {/* Decreased font size */}
-                  Discover a wide range of fresh, organic, and sustainably grown
-                  foods straight from farms to your table.
+                <p className="text-base mb-6 drop-shadow-lg">
+                  {" "}
+                  {/* Decreased font size */}
+                  Discover a wide range of fresh, organic, and sustainably extracted
+                  products straight from farms to your table.
                 </p>
-                <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg"> {/* Adjusted padding */}
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg">
+                  {" "}
+                  {/* Adjusted padding */}
                   Explore Our Products
                 </button>
               </div>
@@ -77,21 +84,27 @@ const HeroSection = () => {
         <div className="w-full h-auto">
           <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
             <img
-              src="/images/cow 1.jpg"
+              src="/images/h2.jpg"
               alt="Healthy Eating"
-              className="w-full h-[50vh] object-cover brightness-75" 
+              className="w-full h-[50vh] object-cover brightness-90 opacity-10"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center text-white px-4 lg:px-8">
-                <h1 className="text-3xl lg:text-5xl font-bold mb-4 drop-shadow-lg"> {/* Decreased font size */}
+              <div className="text-center text-orange-600 px-4 lg:px-8">
+                <h1 className="text-3xl lg:text-5xl font-bold mb-4 drop-shadow-lg">
+                  {" "}
+                  {/* Decreased font size */}
                   Healthy Eating Starts Here
                 </h1>
-                <p className="text-base mb-6 drop-shadow-lg"> {/* Decreased font size */}
+                <p className="text-base mb-6 drop-shadow-lg">
+                  {" "}
+                  {/* Decreased font size */}
                   From fresh organic produce to farm-to-table ingredients, make
                   the best choice for your family.
                 </p>
-                <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg"> {/* Adjusted padding */}
-                  Shop Now
+                <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg">
+                  {" "}
+                  {/* Adjusted padding */}
+                  Explore Our Products
                 </button>
               </div>
             </div>
@@ -101,7 +114,6 @@ const HeroSection = () => {
         {/* Add more slides as needed */}
       </Slider>
     </section>
-    
   );
 };
 
