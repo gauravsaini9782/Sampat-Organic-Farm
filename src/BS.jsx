@@ -59,7 +59,7 @@ const BS = () => {
 
   const openWhatsApp = (product) => {
     const message = `Hi, I'm interested in more information about ${product.title}.`;
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER&text=${encodeURIComponent(
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=917888470568&text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");

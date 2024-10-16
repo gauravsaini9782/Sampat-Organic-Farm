@@ -61,7 +61,7 @@ const OurProducts = () => {
 
   const openWhatsApp = (product) => {
     const message = `Hello! I am interested in this product: ${product.title}.`;
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=919782312413&text=${encodeURIComponent(
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=917888470568&text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");

@@ -36,7 +36,7 @@ const Navbar = () => {
   // Function to open WhatsApp
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/919782312413?text=Hello!%20I%20am%20interested%20in%20your%20products.",
+      "https://wa.me/917888470568?text=Hello!%20I%20am%20interested%20in%20your%20products.",
       "_blank"
     );
   };

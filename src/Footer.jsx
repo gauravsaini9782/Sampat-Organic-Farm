@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <div className="mb-4">
           <h4 className="text-lg font-semibold">Contact Us</h4>
-          <p>Email: info@example.com</p>
-          <p>Phone: +123-456-7890</p>
+          <p>Email: sampat@info.com</p>
+          <p>Phone: +91 788470568</p>
         </div>
         <div className="mb-4">
           <h4 className="text-lg font-semibold">Follow Us</h4>
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-4 pt-4">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Your Company Name. All rights
+            &copy; {new Date().getFullYear()} SAMPAT @All rights
             reserved.
           </p>
         </div>

@@ -53,28 +53,28 @@ const HeroSection = () => {
         <div className="w-full h-auto">
           <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
             <img
-              src="/images/h1.jpg"
+              src="/images/cow 3.avif"
               alt="Fresh & Organic"
-              className="w-full h-[50vh] object-cover brightness-50 opacity-20"
+              className="w-full h-[50vh] object-cover brightness-90 "
             />
             <div className="absolute inset-0 flex items-center justify-center ">
               <div className="text-center text-blue-700 px-4 lg:px-8">
                 <h1 className="text-3xl lg:text-5xl font-bold mb-4 drop-shadow-lg">
                   {" "}
-                  {/* Decreased font size */}
-                  Fresh & Organic Food
+                
+                  {/* Fresh & Organic Food */}
                 </h1>
-                <p className="text-base mb-6 drop-shadow-lg">
+                {/* <p className="text-base mb-6 drop-shadow-lg">
                   {" "}
-                  {/* Decreased font size */}
+               
                   Discover a wide range of fresh, organic, and sustainably extracted
                   products straight from farms to your table.
-                </p>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg">
+                </p> */}
+                {/* <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg">
                   {" "}
-                  {/* Adjusted padding */}
+                
                   Explore Our Products
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -84,28 +84,28 @@ const HeroSection = () => {
         <div className="w-full h-auto">
           <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
             <img
-              src="/images/h2.jpg"
+              src="/images/honey front 2.jpg"
               alt="Healthy Eating"
-              className="w-full h-[50vh] object-cover brightness-90 opacity-10"
+              className="w-full h-[50vh] object-cover brightness-90 "
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-orange-600 px-4 lg:px-8">
                 <h1 className="text-3xl lg:text-5xl font-bold mb-4 drop-shadow-lg">
                   {" "}
-                  {/* Decreased font size */}
-                  Healthy Eating Starts Here
+               
+                  {/* Healthy Eating Starts Here */}
                 </h1>
-                <p className="text-base mb-6 drop-shadow-lg">
+                {/* <p className="text-base mb-6 drop-shadow-lg">
                   {" "}
-                  {/* Decreased font size */}
+                
                   From fresh organic produce to farm-to-table ingredients, make
                   the best choice for your family.
-                </p>
-                <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg">
+                </p> */}
+                {/* <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 ease-in-out shadow-lg">
                   {" "}
-                  {/* Adjusted padding */}
+                
                   Explore Our Products
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
