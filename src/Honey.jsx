@@ -4,46 +4,46 @@ import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const products = {
-  ghee: [
+  honey: [
     {
       id: 1,
-      title: "Organic Cow Ghee - 500g",
-      description: "Pure organic cow ghee from grass-fed cows.",
-      image: "/images/go 2.jpg",
-      originalPrice: 1000,
-      discountedPrice: 860,
+      title: "Organic Honey - 500g",
+      description: "Pure, raw, and unfiltered organic honey.",
+      image: "/images/ho 1.jpg",
+      originalPrice: 700,
+      discountedPrice: 602,
       discount: 14,
-      reviews: 120,
+      reviews: 80,
     },
     {
       id: 2,
-      title: "Organic Cow Ghee - 1kg",
-      description: "Rich in flavor and nutrients, perfect for daily use.",
-      image: "/images/go 1.jpg",
-      originalPrice: 1800,
-      discountedPrice: 1548,
-      discount: 14,
-      reviews: 90,
-    },
-    {
-      id: 3,
-      title: "Organic Cow Ghee - 3kg",
-      description: "Sourced from organic farms, great for cooking.",
-      image: "/images/ghee 2.webp",
-      originalPrice: 5000,
-      discountedPrice: 4300,
+      title: "Organic Honey - 1kg",
+      description: "Packed with antioxidants and nutrients.",
+      image: "/images/ho 2.jpg",
+      originalPrice: 1200,
+      discountedPrice: 1032,
       discount: 14,
       reviews: 65,
     },
     {
-      id: 4,
-      title: "Organic Cow Ghee - 5kg",
-      description: "Best value for families and bulk use.",
-      image: "/images/go 2.jpg",
-      originalPrice: 8200,
-      discountedPrice: 7048,
+      id: 3,
+      title: "Organic Honey - 3kg",
+      description: "Harvested from wildflower nectar.",
+      image: "/images/honey-on-burlap.webp",
+      originalPrice: 3200,
+      discountedPrice: 2752,
       discount: 14,
-      reviews: 45,
+      reviews: 50,
+    },
+    {
+      id: 4,
+      title: "Organic Honey - 5kg",
+      description: "Ideal for large families and bulk buyers.",
+      image: "/images/ho 1.jpg",
+      originalPrice: 5500,
+      discountedPrice: 4730,
+      discount: 14,
+      reviews: 35,
     },
   ],
 };
@@ -113,11 +113,11 @@ const OurProducts = () => {
         )}
 
         {/* Honey Section */}
-        <div className="mt-16">
+        <div className="mt-16 ">
           <h3 className="text-2xl font-semibold text-black mb-6">
             Organic Honey
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
             {products?.honey?.map((product) => (
               <div
                 key={product.id}
