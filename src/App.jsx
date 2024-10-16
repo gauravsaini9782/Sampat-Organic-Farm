@@ -8,10 +8,11 @@ import AboutUs from "./AboutUs";
 import WhyChooseUs from "./WhyChooseUs";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
-import BestsellerPage from "./BestSellerPage";
+
 import Ghee from "./Ghee";
 import Honey from "./Honey"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BS from "./BS";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,7 +34,7 @@ function App() {
             }
           />
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/bestseller" element={<BestsellerPage />} />
+          <Route path="/bestseller" element={<BS />} />
           <Route path="/ghee" element={<Ghee />} />
           <Route path="/honey" element={<Honey/>} />
         </Routes>

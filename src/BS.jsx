@@ -46,7 +46,7 @@ const bestsellingProducts = [
   },
 ];
 
-const BestsellerPage = () => {
+const BS = () => {
   const [quantity, setQuantity] = useState("500g");
   const [cartMessage, setCartMessage] = useState("");
 
@@ -167,4 +167,4 @@ const BestsellerPage = () => {
   );
 };
 
-export default BestsellerPage;
+export default BS;
