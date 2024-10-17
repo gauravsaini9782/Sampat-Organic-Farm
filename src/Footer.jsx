@@ -14,7 +14,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold">Follow Us</h4>
           <div className="flex justify-center space-x-4">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=61566259109497"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
@@ -30,7 +30,7 @@ const Footer = () => {
               <i className="fab fa-twitter"></i>
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/sampat_dairy.farm/profilecard/?igsh=OHk1ajAxdmEyZGFj"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
@@ -49,8 +49,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-4 pt-4">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} SAMPAT @All rights
-            reserved.
+            &copy; {new Date().getFullYear()} SAMPAT @All rights reserved.
           </p>
         </div>
       </div>
